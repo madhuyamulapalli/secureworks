@@ -2,7 +2,7 @@ import { Apollo, APOLLO_OPTIONS } from 'apollo-angular';
 import { HttpLink } from 'apollo-angular/http';
 import { ApplicationConfig, inject } from '@angular/core';
 import { ApolloClientOptions, InMemoryCache } from '@apollo/client/core';
-const { TOKEN } = process.env;
+const TOKEN  = ''; // removed the token for safety, please add your respective personal token to test
 
 const uri = 'https://api.github.com/graphql'; // <-- add the URL of the GraphQL server here
 
