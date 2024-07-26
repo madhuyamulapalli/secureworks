@@ -1,4 +1,4 @@
-# SworksAngularGraphql
+# Secure works
 1. Please run "npm i" to download the node modules
 2. please run "ng serve" to start the server
 3. Code is built using Angular 18, Material, Ngrx Singnal Source and Graphql
