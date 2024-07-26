@@ -25,22 +25,4 @@ query getRepos($username: String!) {
 }
 `
 
-const ADD_TODO = gql`
-  mutation addTodo($name: String!, $description: String!) {
-    addTodo(name: $name, description: $description) {
-      id
-      name
-      description
-    }
-  }
-`
-
-const DELETE_TODO = gql`
-  mutation deleteTodo($id: Int!) {
-    deleteTodo(id: $id) {
-      id
-    }
-  }
-  `
-
-export { GET_REPOS, ADD_TODO, DELETE_TODO }
+export { GET_REPOS }
