@@ -1,0 +1,7 @@
+<div class="home">
+  <sw-repo-search (dataToSend)="receiveData($event)"></sw-repo-search>
+</div>
+
+<div class="home">
+  <sw-repos-list [repos]="reposStore.repos()"></sw-repos-list>
+</div>
